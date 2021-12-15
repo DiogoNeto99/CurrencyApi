@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>change currency from:</p>
+    <select name="currencyOne" id="currencyOne">
+        <option value="EU" selected>EU</option>
+        <option value="USD">USD</option>
+    </select>
+    <input type="number" id="amount" placeholder="1"></input>
+    <p>to</p>
+    <select name="currencyTwo" id="currencyTwo">
+        <option value="EU">EU</option>
+        <option value="USD" selected>USD</option>
+    </select>
+    <button id="btn" type="submit">Submit</button>
+    <p>=</p>
+    <p>
+        <%=result%>
+    </p>
+</body>
+
+</html>
